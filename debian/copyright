@@ -1,0 +1,600 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: atom
+Source: <url://example.com>
+
+Files:     .coffeelintignore
+           .gitattributes
+           .gitignore
+           .node-version
+           .pairs
+           .python-version
+           .travis.yml
+           CHANGELOG.md
+           CONTRIBUTING.md
+           Dockerfile
+           README.md
+           apm/README.md
+           apm/package.json
+           atom.sh
+           benchmark/benchmark-bootstrap.coffee
+           benchmark/benchmark-helper.coffee
+           benchmark/benchmark-suite.coffee
+           benchmark/browser-process-startup.coffee
+           benchmark/fixtures/medium.coffee
+           build/.npmrc
+           build/Gruntfile.coffee
+           build/README.md
+           build/deprecated-packages.json
+           build/package.json
+           build/tasks/build-task.coffee
+           build/tasks/check-licenses-task.coffee
+           build/tasks/clean-task.coffee
+           build/tasks/codesign-task.coffee
+           build/tasks/compile-packages-slug-task.coffee
+           build/tasks/copy-info-plist-task.coffee
+           build/tasks/docs-task.coffee
+           build/tasks/dump-symbols-task.coffee
+           build/tasks/generate-asar-task.coffee
+           build/tasks/generate-license-task.coffee
+           build/tasks/generate-module-cache-task.coffee
+           build/tasks/install-task.coffee
+           build/tasks/license-overrides.coffee
+           build/tasks/mkdeb-task.coffee
+           build/tasks/mkrpm-task.coffee
+           build/tasks/nof-task.coffee
+           build/tasks/output-build-filetypes.coffee
+           build/tasks/output-disk-space.coffee
+           build/tasks/output-for-loop-returns.coffee
+           build/tasks/output-long-paths-task.coffee
+           build/tasks/output-module-counts.coffee
+           build/tasks/prebuild-less-task.coffee
+           build/tasks/publish-build-task.coffee
+           build/tasks/set-exe-icon-task.coffee
+           build/tasks/set-version-task.coffee
+           build/tasks/spec-task.coffee
+           build/tasks/task-helpers.coffee
+           coffeelint.json
+           docs/README.md
+           docs/apm-rest-api.md
+           docs/build-instructions/freebsd.md
+           docs/build-instructions/linux.md
+           docs/build-instructions/os-x.md
+           docs/build-instructions/windows.md
+           docs/contributing-to-packages.md
+           dot-atom/.gitignore
+           dot-atom/init.coffee
+           dot-atom/keymap.cson
+           dot-atom/packages/README.md
+           dot-atom/snippets.cson
+           dot-atom/styles.less
+           exports/atom.coffee
+           keymaps/base.cson
+           keymaps/darwin.cson
+           keymaps/emacs.cson
+           keymaps/linux.cson
+           keymaps/win32.cson
+           menus/darwin.cson
+           menus/linux.cson
+           menus/win32.cson
+           package.json
+           resources/linux/atom.desktop.in
+           resources/linux/debian/control.in
+           resources/linux/debian/lintian-overrides
+           resources/linux/redhat/atom.spec.in
+           resources/mac/speakeasy.pem
+           resources/win/apm.sh
+           resources/win/atom.cmd
+           resources/win/atom.js
+           resources/win/atom.sh
+           script/bootstrap
+           script/bootstrap.cmd
+           script/build
+           script/build.cmd
+           script/cibuild
+           script/cibuild-atom-linux
+           script/cibuild-atom-rpm
+           script/clean
+           script/clean.cmd
+           script/copy-folder.cmd
+           script/create-shortcut.cmd
+           script/grunt
+           script/grunt.cmd
+           script/mkdeb
+           script/mkrpm
+           script/rpmbuild
+           script/set-version
+           script/test
+           script/utils/child-process-wrapper.js
+           script/utils/clean-merged-branches
+           script/utils/clean-open-with-menu
+           script/utils/compile-main-to-app
+           script/utils/fix-author
+           script/utils/run-grunt.js
+           script/utils/translate-crash-log-addresses.coffee
+           script/utils/verify-requirements.js
+           spec/atom-protocol-handler-spec.coffee
+           spec/atom-reporter.coffee
+           spec/atom-spec.coffee
+           spec/babel-spec.coffee
+           spec/buffered-node-process-spec.coffee
+           spec/buffered-process-spec.coffee
+           spec/clipboard-spec.coffee
+           spec/command-installer-spec.coffee
+           spec/command-registry-spec.coffee
+           spec/compile-cache-spec.coffee
+           spec/config-spec.coffee
+           spec/context-menu-manager-spec.coffee
+           spec/custom-gutter-component-spec.coffee
+           spec/default-directory-provider-spec.coffee
+           spec/default-directory-searcher-spec.coffee
+           spec/deserializer-manager-spec.coffee
+           spec/display-buffer-spec.coffee
+           spec/fixtures/babel/6to5-double-quotes.js
+           spec/fixtures/babel/6to5-single-quotes.js
+           spec/fixtures/babel/babel-double-quotes.js
+           spec/fixtures/babel/babel-single-quotes.js
+           spec/fixtures/babel/invalid.js
+           spec/fixtures/coffee.coffee
+           spec/fixtures/cson.cson
+           spec/fixtures/css.css
+           spec/fixtures/dir/a
+           spec/fixtures/dir/a-dir/oh-git
+           spec/fixtures/dir/b
+           spec/fixtures/dir/file1
+           spec/fixtures/git/ignore.git/HEAD
+           spec/fixtures/git/ignore.git/config
+           spec/fixtures/git/ignore.git/info/exclude
+           spec/fixtures/git/ignore.git/refs/heads/master
+           spec/fixtures/git/master.git/HEAD
+           spec/fixtures/git/master.git/config
+           spec/fixtures/git/master.git/refs/heads/master
+           spec/fixtures/git/working-dir/.gitignore
+           spec/fixtures/git/working-dir/a.txt
+           spec/fixtures/git/working-dir/git.git/HEAD
+           spec/fixtures/git/working-dir/git.git/config
+           spec/fixtures/git/working-dir/git.git/objects/8a/9c86f1cb1f14b8f436eb91f4b052c8802ca99e
+           spec/fixtures/git/working-dir/git.git/refs/heads/master
+           spec/fixtures/module-cache/file.json
+           spec/fixtures/packages/package-that-throws-an-exception/index.coffee
+           spec/fixtures/packages/package-that-throws-on-activate/index.coffee
+           spec/fixtures/packages/package-that-throws-on-deactivate/index.coffee
+           spec/fixtures/packages/package-with-activation-commands/index.coffee
+           spec/fixtures/packages/package-with-activation-commands/package.cson
+           spec/fixtures/packages/package-with-activation-hooks/index.coffee
+           spec/fixtures/packages/package-with-activation-hooks/package.cson
+           spec/fixtures/packages/package-with-broken-keymap/keymaps/broken.json
+           spec/fixtures/packages/package-with-broken-package-json/package.json
+           spec/fixtures/packages/package-with-config-defaults/index.coffee
+           spec/fixtures/packages/package-with-config-schema/index.coffee
+           spec/fixtures/packages/package-with-consumed-services/index.coffee
+           spec/fixtures/packages/package-with-consumed-services/package.json
+           spec/fixtures/packages/package-with-deactivate/index.coffee
+           spec/fixtures/packages/package-with-deprecated-pane-item-method/index.coffee
+           spec/fixtures/packages/package-with-different-directory-name/package.json
+           spec/fixtures/packages/package-with-empty-activation-commands/index.coffee
+           spec/fixtures/packages/package-with-empty-activation-commands/package.json
+           spec/fixtures/packages/package-with-empty-activation-hooks/index.coffee
+           spec/fixtures/packages/package-with-empty-activation-hooks/package.json
+           spec/fixtures/packages/package-with-empty-keymap/keymaps/keymap.cson
+           spec/fixtures/packages/package-with-empty-keymap/package.json
+           spec/fixtures/packages/package-with-empty-menu/menus/menu.cson
+           spec/fixtures/packages/package-with-empty-menu/package.json
+           spec/fixtures/packages/package-with-grammars/grammars/alittle.cson
+           spec/fixtures/packages/package-with-grammars/grammars/alot.cson
+           spec/fixtures/packages/package-with-incompatible-native-module/main.js
+           spec/fixtures/packages/package-with-incompatible-native-module/node_modules/native-module/build/Release/native.node
+           spec/fixtures/packages/package-with-incompatible-native-module/node_modules/native-module/main.js
+           spec/fixtures/packages/package-with-incompatible-native-module/node_modules/native-module/package.json
+           spec/fixtures/packages/package-with-incompatible-native-module/package.json
+           spec/fixtures/packages/package-with-index/index.coffee
+           spec/fixtures/packages/package-with-injection-selector/grammars/grammar.cson
+           spec/fixtures/packages/package-with-invalid-activation-commands/package.json
+           spec/fixtures/packages/package-with-invalid-context-menu/menus/menu.json
+           spec/fixtures/packages/package-with-invalid-context-menu/package.json
+           spec/fixtures/packages/package-with-invalid-grammar/grammars/grammar.json
+           spec/fixtures/packages/package-with-invalid-grammar/package.json
+           spec/fixtures/packages/package-with-invalid-settings/package.json
+           spec/fixtures/packages/package-with-invalid-settings/settings/settings.json
+           spec/fixtures/packages/package-with-invalid-styles/package.json
+           spec/fixtures/packages/package-with-invalid-styles/styles/index.less
+           spec/fixtures/packages/package-with-invalid-url-package-json/package.json
+           spec/fixtures/packages/package-with-keymaps-manifest/keymaps/keymap-1.json
+           spec/fixtures/packages/package-with-keymaps-manifest/keymaps/keymap-2.cson
+           spec/fixtures/packages/package-with-keymaps-manifest/keymaps/keymap-3.cson
+           spec/fixtures/packages/package-with-keymaps-manifest/package.cson
+           spec/fixtures/packages/package-with-keymaps/keymaps/keymap-1.cson
+           spec/fixtures/packages/package-with-keymaps/keymaps/keymap-2.cson
+           spec/fixtures/packages/package-with-keymaps/keymaps/keymap-3.cjson
+           spec/fixtures/packages/package-with-main/main-module.coffee
+           spec/fixtures/packages/package-with-main/package.cson
+           spec/fixtures/packages/package-with-menus-manifest/menus/menu-1.cson
+           spec/fixtures/packages/package-with-menus-manifest/menus/menu-2.cson
+           spec/fixtures/packages/package-with-menus-manifest/menus/menu-3.cson
+           spec/fixtures/packages/package-with-menus-manifest/package.cson
+           spec/fixtures/packages/package-with-menus/menus/menu-1.cson
+           spec/fixtures/packages/package-with-menus/menus/menu-2.cson
+           spec/fixtures/packages/package-with-menus/menus/menu-3.cson
+           spec/fixtures/packages/package-with-missing-consumed-services/index.coffee
+           spec/fixtures/packages/package-with-missing-consumed-services/package.json
+           spec/fixtures/packages/package-with-missing-provided-services/index.coffee
+           spec/fixtures/packages/package-with-missing-provided-services/package.json
+           spec/fixtures/packages/package-with-no-activate/index.js
+           spec/fixtures/packages/package-with-no-activate/package.json
+           spec/fixtures/packages/package-with-provided-services/index.coffee
+           spec/fixtures/packages/package-with-provided-services/package.json
+           spec/fixtures/packages/package-with-rb-filetype/grammars/rb.cson
+           spec/fixtures/packages/package-with-rb-filetype/package.json
+           spec/fixtures/packages/package-with-serialization/index.coffee
+           spec/fixtures/packages/package-with-serialize-error/index.coffee
+           spec/fixtures/packages/package-with-serialize-error/package.cson
+           spec/fixtures/packages/package-with-settings/settings/omg.cson
+           spec/fixtures/packages/package-with-short-url-package-json/package.json
+           spec/fixtures/packages/package-with-style-sheets-manifest/package.cson
+           spec/fixtures/packages/package-with-style-sheets-manifest/styles/1.css
+           spec/fixtures/packages/package-with-style-sheets-manifest/styles/2.less
+           spec/fixtures/packages/package-with-style-sheets-manifest/styles/3.css
+           spec/fixtures/packages/package-with-styles/styles/1.css
+           spec/fixtures/packages/package-with-styles/styles/2.less
+           spec/fixtures/packages/package-with-styles/styles/3.test-context.css
+           spec/fixtures/packages/package-with-styles/styles/4.css
+           spec/fixtures/packages/package-with-stylesheets-manifest/package.cson
+           spec/fixtures/packages/package-without-module/package.cson
+           spec/fixtures/packages/sublime-tabs/package.json
+           spec/fixtures/packages/theme-with-incomplete-ui-variables/package.json
+           spec/fixtures/packages/theme-with-incomplete-ui-variables/styles/editor.less
+           spec/fixtures/packages/theme-with-incomplete-ui-variables/styles/ui-variables.less
+           spec/fixtures/packages/theme-with-index-css/index.css
+           spec/fixtures/packages/theme-with-index-css/package.json
+           spec/fixtures/packages/theme-with-index-less/index.less
+           spec/fixtures/packages/theme-with-index-less/package.json
+           spec/fixtures/packages/theme-with-invalid-styles/package.json
+           spec/fixtures/packages/theme-with-package-file/package.json
+           spec/fixtures/packages/theme-with-package-file/styles/first.css
+           spec/fixtures/packages/theme-with-package-file/styles/last.css
+           spec/fixtures/packages/theme-with-package-file/styles/second.less
+           spec/fixtures/packages/theme-with-syntax-variables/package.json
+           spec/fixtures/packages/theme-with-syntax-variables/styles/editor.less
+           spec/fixtures/packages/theme-with-ui-variables/package.json
+           spec/fixtures/packages/theme-with-ui-variables/styles/editor.less
+           spec/fixtures/packages/theme-with-ui-variables/styles/ui-variables.less
+           spec/fixtures/packages/theme-without-package-file/styles/a.css
+           spec/fixtures/packages/theme-without-package-file/styles/b.css
+           spec/fixtures/packages/theme-without-package-file/styles/c.less
+           spec/fixtures/packages/theme-without-package-file/styles/d.csv
+           spec/fixtures/packages/wordcount/package.json
+           spec/fixtures/sample-with-comments.js
+           spec/fixtures/sample-with-tabs-and-initial-comment.js
+           spec/fixtures/sample-with-tabs-and-leading-comment.coffee
+           spec/fixtures/sample-with-tabs.coffee
+           spec/fixtures/sample.js
+           spec/fixtures/sample.less
+           spec/fixtures/sample.txt
+           spec/fixtures/script-with-deprecations.js
+           spec/fixtures/script.js
+           spec/fixtures/shebang
+           spec/fixtures/task-handler-with-deprecations.coffee
+           spec/fixtures/task-spec-handler.coffee
+           spec/fixtures/two-hundred.txt
+           spec/fixtures/typescript/invalid.ts
+           spec/fixtures/typescript/valid.ts
+           spec/git-repository-provider-spec.coffee
+           spec/git-spec.coffee
+           spec/grammars-spec.coffee
+           spec/gutter-container-component-spec.coffee
+           spec/gutter-container-spec.coffee
+           spec/gutter-spec.coffee
+           spec/integration/fixtures/atom-home/config.cson
+           spec/integration/helpers/atom-launcher.sh
+           spec/integration/helpers/start-atom.coffee
+           spec/integration/startup-spec.coffee
+           spec/jasmine-helper.coffee
+           spec/language-mode-spec.coffee
+           spec/menu-manager-spec.coffee
+           spec/module-cache-spec.coffee
+           spec/notification-manager-spec.coffee
+           spec/notification-spec.coffee
+           spec/package-manager-spec.coffee
+           spec/package-spec.coffee
+           spec/pane-container-element-spec.coffee
+           spec/pane-container-spec.coffee
+           spec/pane-container-view-spec.coffee
+           spec/pane-spec.coffee
+           spec/pane-view-spec.coffee
+           spec/panel-container-element-spec.coffee
+           spec/panel-container-spec.coffee
+           spec/panel-element-spec.coffee
+           spec/panel-spec.coffee
+           spec/project-spec.coffee
+           spec/random-editor-spec.coffee
+           spec/row-map-spec.coffee
+           spec/select-list-view-spec.coffee
+           spec/selection-spec.coffee
+           spec/space-pen-extensions-spec.coffee
+           spec/spec-bootstrap.coffee
+           spec/spec-helper-platform.coffee
+           spec/spec-helper.coffee
+           spec/spec-suite.coffee
+           spec/squirrel-update-spec.coffee
+           spec/style-manager-spec.coffee
+           spec/styles-element-spec.coffee
+           spec/task-spec.coffee
+           spec/text-editor-component-spec.coffee
+           spec/text-editor-element-spec.coffee
+           spec/text-editor-presenter-spec.coffee
+           spec/text-editor-spec.coffee
+           spec/text-utils-spec.coffee
+           spec/theme-manager-spec.coffee
+           spec/time-reporter.coffee
+           spec/tokenized-buffer-spec.coffee
+           spec/tokenized-line-spec.coffee
+           spec/tooltip-manager-spec.coffee
+           spec/typescript-spec.coffee
+           spec/view-registry-spec.coffee
+           spec/window-spec.coffee
+           spec/workspace-element-spec.coffee
+           spec/workspace-spec.coffee
+           spec/workspace-view-spec.coffee
+           src/atom.coffee
+           src/babel.coffee
+           src/browser/application-menu.coffee
+           src/browser/atom-application.coffee
+           src/browser/atom-protocol-handler.coffee
+           src/browser/atom-window.coffee
+           src/browser/auto-update-manager.coffee
+           src/browser/auto-updater-win32.coffee
+           src/browser/context-menu.coffee
+           src/browser/main.coffee
+           src/browser/squirrel-update.coffee
+           src/buffered-node-process.coffee
+           src/buffered-process.coffee
+           src/clipboard.coffee
+           src/color.coffee
+           src/command-installer.coffee
+           src/command-registry.coffee
+           src/compile-cache.coffee
+           src/config-schema.coffee
+           src/config.coffee
+           src/context-menu-manager.coffee
+           src/cursor.coffee
+           src/cursors-component.coffee
+           src/custom-event-mixin.coffee
+           src/custom-gutter-component.coffee
+           src/decoration.coffee
+           src/default-directory-provider.coffee
+           src/default-directory-searcher.coffee
+           src/deprecated-packages.coffee
+           src/deserializer-manager.coffee
+           src/display-buffer.coffee
+           src/fold.coffee
+           src/git-repository-provider.coffee
+           src/git-repository.coffee
+           src/grammar-registry.coffee
+           src/gutter-component-helpers.coffee
+           src/gutter-container-component.coffee
+           src/gutter-container.coffee
+           src/gutter.coffee
+           src/highlights-component.coffee
+           src/input-component.coffee
+           src/item-registry.coffee
+           src/keymap-extensions.coffee
+           src/language-mode.coffee
+           src/less-compile-cache.coffee
+           src/line-number-gutter-component.coffee
+           src/line-numbers-tile-component.coffee
+           src/lines-component.coffee
+           src/lines-tile-component.coffee
+           src/marker-observation-window.coffee
+           src/marker.coffee
+           src/menu-helpers.coffee
+           src/menu-manager.coffee
+           src/model.coffee
+           src/module-cache.coffee
+           src/notification-manager.coffee
+           src/notification.coffee
+           src/overlay-manager.coffee
+           src/package-manager.coffee
+           src/package.coffee
+           src/pane-axis-element.coffee
+           src/pane-axis.coffee
+           src/pane-container-element.coffee
+           src/pane-container-view.coffee
+           src/pane-container.coffee
+           src/pane-element.coffee
+           src/pane-resize-handle-element.coffee
+           src/pane-view.coffee
+           src/pane.coffee
+           src/panel-container-element.coffee
+           src/panel-container.coffee
+           src/panel-element.coffee
+           src/panel.coffee
+           src/project.coffee
+           src/replace-handler.coffee
+           src/repository-status-handler.coffee
+           src/row-map.coffee
+           src/safe-clipboard.coffee
+           src/scan-handler.coffee
+           src/scope-descriptor.coffee
+           src/scoped-properties.coffee
+           src/scroll-view.coffee
+           src/scrollbar-component.coffee
+           src/scrollbar-corner-component.coffee
+           src/select-list-view.coffee
+           src/selection.coffee
+           src/space-pen-extensions.coffee
+           src/special-token-symbols.coffee
+           src/storage-folder.coffee
+           src/style-manager.coffee
+           src/styles-element.coffee
+           src/subscriber-mixin.coffee
+           src/task-bootstrap.coffee
+           src/task.coffee
+           src/text-editor-component.coffee
+           src/text-editor-element.coffee
+           src/text-editor-presenter.coffee
+           src/text-editor-view.coffee
+           src/text-editor.coffee
+           src/text-utils.coffee
+           src/theme-manager.coffee
+           src/theme-package.coffee
+           src/tiled-component.coffee
+           src/token-iterator.coffee
+           src/token.coffee
+           src/tokenized-buffer.coffee
+           src/tokenized-line.coffee
+           src/tooltip-manager.coffee
+           src/typescript.coffee
+           src/view-registry.coffee
+           src/window-bootstrap.coffee
+           src/window-event-handler.coffee
+           src/window.coffee
+           src/workspace-element.coffee
+           src/workspace-view.coffee
+           src/workspace.coffee
+           static/atom.less
+           static/badges.less
+           static/bootstrap-overrides.less
+           static/bootstrap.less
+           static/buttons.less
+           static/icons.less
+           static/index.js
+           static/jasmine.less
+           static/links.less
+           static/linux.less
+           static/lists.less
+           static/markdown.less
+           static/messages.less
+           static/octicons.less
+           static/panels.less
+           static/panes.less
+           static/popover-list.less
+           static/sections.less
+           static/select-list.less
+           static/syntax.less
+           static/text-editor-light.less
+           static/text-editor-shadow.less
+           static/text.less
+           static/utilities.less
+           static/variables/octicon-mixins.less
+           static/variables/octicon-utf-codes.less
+           static/variables/syntax-variables.less
+           static/variables/ui-variables.less
+           static/workspace-view.less
+           vendor/jasmine-jquery.js
+           vendor/jasmine.js
+Copyright: 2010 LearnBoost <dev@learnboost.com> * MIT Licensed */ <content omitted>
+           'Copyright © 2015 GitHub, Inc. ' ProductName: 'Atom' ProductVersion: version
+           __NO_COPYRIGHT_NOR_LICENSE__
+License:   __UNKNOWN__
+
+Files:     LICENSE.md
+Copyright: 2015 GitHub Inc.
+License:   MIT
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files:     benchmark/fixtures/huge.js
+Copyright: 2011 John Resig Dual licensed under the MIT or GPL Version 2 licenses. http://jquery.org/license
+License:   __UNKNOWN__
+ Includes Sizzle.js
+ http://sizzlejs.com/
+ Copyright 2011, The Dojo Foundation
+ Released under the MIT, BSD, and GPL Licenses.
+ .
+ Date: Mon Nov 21 21:11:03 2011 -0500
+
+Files:     build/debian/Dockerfile
+Copyright: __NO_COPYRIGHT__
+License:   __UNKNOWN__
+ This file describes how to build the atom editor
+ in a container with all dependencies installed.
+ Tested on Debian Jessie.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         static/index.html
+#         spec/fixtures/packages/theme-with-invalid-styles/index.less
+#         resources/mac/atom-Info.plist
+#         resources/mac/helper-Info.plist
+
+#----------------------------------------------------------------------------
+# binary files (skipped):
+#         static/octicons.woff
+#         static/images/octocat-spinner-128.gif
+#         static/images/transparent-background.gif
+#         spec/fixtures/git/master.git/index
+#         spec/fixtures/git/master.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+#         spec/fixtures/git/master.git/objects/65/a457425a679cbe9adf0d2741785d3ceabb44a7
+#         spec/fixtures/git/master.git/objects/ef/046e9eecaa5255ea5e9817132d4001724d6ae1
+#         spec/fixtures/git/working-dir/git.git/index
+#         spec/fixtures/git/working-dir/git.git/objects/52/f56457b6fca045ce41bb9d32e6ca79d23192af
+#         spec/fixtures/git/working-dir/git.git/objects/ec/5e386905ff2d36e291086a1207f2585aaa8920
+#         spec/fixtures/git/working-dir/git.git/objects/16/735fb793d7b038818219c4b8c6295346e20eef
+#         spec/fixtures/git/working-dir/git.git/objects/ff/c8218bd2240a0cb92f6f02548d45784428349b
+#         spec/fixtures/git/working-dir/git.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+#         spec/fixtures/git/working-dir/git.git/objects/66/dc9051da651c15d98d017a88658263cab28f02
+#         spec/fixtures/git/working-dir/git.git/objects/06/15f9a45968b3515e0a202530ef9f61aba26b6c
+#         spec/fixtures/git/working-dir/git.git/objects/65/a457425a679cbe9adf0d2741785d3ceabb44a7
+#         spec/fixtures/git/working-dir/git.git/objects/ef/046e9eecaa5255ea5e9817132d4001724d6ae1
+#         spec/fixtures/git/working-dir/git.git/objects/5b/24ab4c3baadf534242b1acc220c8fa051b9b20
+#         spec/fixtures/git/working-dir/git.git/objects/fe/bde178cdf35e9df6279d87aa27590c6d92e354
+#         spec/fixtures/git/ignore.git/index
+#         spec/fixtures/git/ignore.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+#         spec/fixtures/git/ignore.git/objects/65/a457425a679cbe9adf0d2741785d3ceabb44a7
+#         spec/fixtures/git/ignore.git/objects/ef/046e9eecaa5255ea5e9817132d4001724d6ae1
+#         resources/atom.png
+#         resources/linux/icons/512.png
+#         resources/linux/icons/32.png
+#         resources/linux/icons/128.png
+#         resources/linux/icons/1024.png
+#         resources/linux/icons/64.png
+#         resources/linux/icons/16.png
+#         resources/linux/icons/256.png
+#         resources/linux/icons/24.png
+#         resources/linux/icons/48.png
+#         resources/win/atom.ico
+#         resources/win/loading.gif
+#         resources/mac/atom.icns
+#         resources/mac/file.icns
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE.md
+ Copyright (c) 2015 GitHub Inc.
+ .
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

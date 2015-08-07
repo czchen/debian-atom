@@ -1,0 +1,6 @@
+atom (1.0.5-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Fri, 07 Aug 2015 19:05:08 +0800
